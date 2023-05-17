@@ -1,0 +1,116 @@
+header{
+	display: flex;
+	background-color: #556B2F;
+}
+	
+h1{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 15%;
+  margin: auto 0;
+  color: #F0F8FF;
+  font-size: 24pt;
+  font-family: Georgia, Times, serif; 
+  font-weight: normal;
+  background-color: #F0F8FF;
+}	
+	
+h1{
+  color: #F0F8FF;
+  font-size: 24pt;
+  font-family: Georgia, Times, serif; 
+  font-weight: normal;
+  background-color: #556B2F;
+}
+
+
+a:link, a:visited, a:focus, a:hover, a:active{
+	color: #F0F8FF;
+	text-decoration: none;
+}
+
+h2{
+  color:  #000000;
+  font-size: 14pt;
+  font-family: Georgia, Times, serif; 
+  font-weight: normal;
+}
+
+p {
+  text-align: justify;
+  font-size: 12pt;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+
+footer{
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24pt;
+  background-color: #556B2F;
+  color: #F0F8FF;
+  padding: 1%;
+}
+
+.footer-img{
+    margin-left: auto;
+	justify-content: right;
+}
+
+.div-1{
+  width: 40%;
+  padding: 2% 2%;
+  text-align: center;
+  background: #8FBC8F;
+}
+
+.div-2{
+  width: 60%;
+  padding: 10% 1%;
+  background: #8FBC8F;
+}
+
+.div-3{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  padding: 3% 3%;
+}
+
+.navig-container{
+  display: flex;
+  justify-content: center;
+  background-color: #556B2F;
+  border-top: 5px solid #F0F8FF;
+  padding: 1%;
+}
+
+.navig {
+  font-size: 16pt;
+  font-family: Georgia, Times, serif; 
+  font-weight: normal;
+  color: #F0F8FF;
+  width: 30%;
+  border-left: 1px solid #F0F8FF;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  border: 1px solid #F0F8FF;
+  color: #F0F8FF;
+  text-align: center;
+  background-color: #006400;
+}
+
+ td, th, tr, table {
+    border: 1px solid #F0F8FF !important;
+    border-spacing:0 !important;
+  }
+
+tbody tr:nth-child(odd) {
+  border: none;
+  background-color: #2F4F4F;
+}

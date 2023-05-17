@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <head>
-
+   <title>О себе</title>
    <meta charset="utf-8">
    <meta name='viewport' content='width=device-width,initial-scale=1'/>
-   <title>О себе</title>
+   <link rel="stylesheet" href="style.css">
    <style type="text/css">
    TABLE {
    }
@@ -17,23 +17,17 @@
 <body>
  <header>
     <a href="index.html"><img src="images\logo.png" alt="Логотип"></a>
+	<h1>Программные технологии Интернета</h1>
  </header>
 
- <nav>
-  <ul>
-    <li><a href="index.html">О себе</a></li>
-    <li><a href="resume.html">Резюме</a></li>
-    <li><a href="certificationreg.html">Запись на аттестацию</a></li>
- <!--   <li><a href="portfolio.html">Портфолио</a></li>
-    <li><a href="competencies.html">Компетенции</a></li>
-    <li><a href="contacts.html">Контакты</a></li> !-->
-  </ul>
- </nav>
+ <div class="navig-container">
+	<div class="navig"><a href="index.html">О себе</a> </div>
+    <div class="navig"><a href="resume.html">Резюме</a> </div>
+    <div class="navig"><a href="certificationreg.html">Запись на аттестацию</a> </div>
+ </div>
 
- <h1>Резюме</h1>
-
+<div class="div-3">
 <table>
- <caption>Опыт работы</caption>
    <thead>
     <tr>
       <td>Год</td>
@@ -58,10 +52,11 @@
     <td>Разрабатывать мобильные версии сайтов. Создавать макеты сайтов. Взаимодействовать с командой (разработчики, дизайнеры, менеджеры). Быть в курсе последних тенденций в области проектирования макетов сайтов, web-приложений. Уметь трансформировать устное ТЗ в наглядное графическое решение.</td>
  </tbody>
 </table>
-
+</div>
  
- <footer>    
-	<img src="images\socialmedia1.png" 
+ <footer> 
+    <p>Сайт разработан ФИ, Copyright ©2023</p> 
+	<div class="footer-img"><img src="images\socialmedia1.png" 
 	    width="60"
         height="60"
 	    alt="СоцМедиа1">   
@@ -73,8 +68,7 @@
 	<img src="images\socialmedia3.png"
 	    width="60"
         height="60"
-    	alt="СоцМедиа3">
-	<p>Сайт разработан ФИ, Copyright ©2023</p>
+    	alt="СоцМедиа3"></div>
  </footer>
 
 </body>
