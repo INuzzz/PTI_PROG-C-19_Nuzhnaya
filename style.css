@@ -114,3 +114,58 @@ tbody tr:nth-child(odd) {
   border: none;
   background-color: #2F4F4F;
 }
+
+.authoris-check {
+  display: none;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+}
+
+.form-container{
+  display: flex;
+  justify-content: center;
+  padding: 7%;
+}
+
+.form-reg-acc{
+  display: block;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+}
+
+.form-login{
+  display: block;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+}
+
+.formregistration {
+  display:none;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+}
+
+.members-table {
+  display: none;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+}
+
+.form-success {
+  display: none;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+}
+

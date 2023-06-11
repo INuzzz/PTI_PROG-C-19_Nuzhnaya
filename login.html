@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+   <title>Запись на аттестацию</title>
+   <meta charset="utf-8">
+   <meta name='viewport' content='width=device-width,initial-scale=1'/>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+   <script src="script.js"></script>
+</head>
+
+<body>
+
+ <header>
+    <a href="index.html"><img src="images\logo.png" alt="Логотип"></a>
+	<h1>Программные технологии Интернета</h1>
+ </header>
+
+ <div class="navig-container">
+	<div class="navig"><a href="index.html">О себе</a> </div>
+    <div class="navig"><a href="resume.html">Резюме</a> </div>
+    <div class="navig"><a href="certificationreg.php">Запись на аттестацию</a> </div>
+    <div class="navig"><a href="login.html">Войти или зарегистрироваться</a> </div>
+ </div>
+
+<div class="div-3">
+<div class="div-1">
+<div class="form-container">
+
+<div class="form-reg-acc">
+<form method="post" action="register.php">
+  <label for="login">Логин</label>
+  <input type="text" id="login" name="login" required><Br>
+  <label for="pass">Пароль</label>
+  <input type="text" id="pass" name="pass" required><Br>
+  <input type=submit value="Зарегистрироваться" id="registrationbtn"><Br>
+</form>
+</div>
+
+
+<div class="form-login">
+<form method="post"  action="login.php">
+  <label for="login">Логин</label>
+  <input type="text" id="login"  name="login" required><Br>
+  <label for="pass">Пароль</label>
+  <input type="text" id="pass" name="pass" required><Br>
+  <input type=submit value="Авторизоваться" id="authorisbtn"><Br>
+</form>
+</div>
+
+</div> </div> </div>
+ 
+  <footer> 
+    <p>Сайт разработан ФИ, Copyright ©2023</p> 
+	<img src="images\socialmedia1.png" 
+	    width="60"
+        height="60"
+	    alt="СоцМедиа1">   
+   	<img src="images\socialmedia2.png"
+	    width="60"
+        height="60"
+		alt="СоцМедиа2">
+	
+	<img src="images\socialmedia3.png"
+	    width="60"
+        height="60"
+    	alt="СоцМедиа3">
+ </footer>
+
+</body>
